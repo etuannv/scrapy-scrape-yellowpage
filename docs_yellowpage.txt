@@ -1,0 +1,5 @@
+Get data from yellow page
+Idea create a website for customer get it
+
+mysql -u root -p
+use yellowpage;SELECT * FROM detail_item WHERE scraped_key='20190502' INTO OUTFILE '/Users/etuannv/Downloads/detail_item.csv' FIELDS ENCLOSED BY '"' TERMINATED BY ';' ESCAPED BY '"' LINES TERMINATED BY '\r\n';
